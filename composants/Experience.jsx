@@ -19,13 +19,13 @@ export function Experience() {
       lien: "https://crater.resiliencealimentaire.org",
       tasks: [
         "Travailler sur la partie front-end",
-        "Développement d'un site full LitJS/VueJS",
+        "Développement d'un site full LitJS / VueJS",
         "Développer, Maintenir et améliorer les interfaces utilisateur existantes",
       ],
     },
 
     {
-      title: "Développeuse full stack NodeJS / NextJS/ Javascript",
+      title: "Développeuse full stack NodeJS / NextJS / Javascript",
       company: "Fermes d'Avenir, Paris",
       duration: "10-2022 - 01-2023",
       lien: "https://labonnepioche.fermesdavenir.org",

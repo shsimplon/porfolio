@@ -91,10 +91,15 @@ svg {
 .experience a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.3s ease;
+  padding: 2px 4px; /* ajoute un petit espacement autour du texte du lien */
+  text-shadow: 1px 1px 1px #999;
 }
 
 .experience a:hover {
-  text-decoration: underline;
+  background-color: #f8f8f8; /* ajoute un fond gris clair au survol */
+  border-radius: 4px;
+  color: #7bc47d;
 }
 
 .job {
