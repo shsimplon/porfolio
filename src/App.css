@@ -41,7 +41,8 @@ svg {
   width: 25px;
   height: 25px;
 }
-.profil {
+.profil,
+.uploadCV {
   display: flex;
   justify-content: center;
 }
@@ -88,11 +89,12 @@ svg {
   font-size: 1rem;
 }
 
-.experience a {
+.experience a,
+.header a {
   text-decoration: none;
   color: inherit;
   transition: color 0.3s ease;
-  padding: 2px 4px; /* ajoute un petit espacement autour du texte du lien */
+  padding: 2px 4px;
   text-shadow: 1px 1px 1px #999;
 }
 
