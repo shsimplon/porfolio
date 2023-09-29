@@ -87,6 +87,16 @@ svg {
 .experienceCompany {
   font-size: 1rem;
 }
+
+.experience a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.experience a:hover {
+  text-decoration: underline;
+}
+
 .job {
   margin-bottom: 40px;
   background-color: #ffffff;
@@ -107,7 +117,7 @@ svg {
 
 /* --- Education Styles --- */
 .education {
-  padding: 40px 0;
+  padding: 2px 0;
 }
 
 .course {
