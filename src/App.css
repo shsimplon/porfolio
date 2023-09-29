@@ -1,0 +1,247 @@
+* {
+  margin: 0.3rem;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #4caf50;
+  border-bottom: 4px solid #4caf50;
+  display: inline-block;
+}
+
+/* --- Header Styles --- */
+.header {
+  background: linear-gradient(45deg, #4caf50, #81c784);
+  color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+svg {
+  width: 25px;
+  height: 25px;
+}
+.profil {
+  display: flex;
+  justify-content: center;
+}
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.header h2 {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.header p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* --- Skills Styles --- */
+.skills {
+  padding: 40px 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul {
+  list-style: none;
+  columns: 2;
+  gap: 20px;
+}
+
+.skills li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* --- Experience Styles --- */
+.experience {
+  padding: 40px 0;
+}
+.experienceCompany {
+  font-size: 1rem;
+}
+.job {
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.job-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.job-description {
+  margin-top: 20px;
+}
+
+/* --- Education Styles --- */
+.education {
+  padding: 40px 0;
+}
+
+.course {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+/* --- Responsive Styles --- */
+@media (max-width: 768px) {
+  .skills ul {
+    columns: 1;
+  }
+
+  .header {
+    padding: 40px 0;
+  }
+
+  .header h1 {
+    font-size: 2.5rem;
+  }
+
+  .header h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* contact */
+
+/* Styles généraux pour le formulaire */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+/* Espacement et styles pour les labels */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Style pour les champs input et textarea */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  resize: none;
+}
+
+/* Styles pour le bouton de soumission */
+form input[type="submit"] {
+  padding: 10px 15px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+/* Effet de survol pour le bouton */
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* about me */
+
+.about-me {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #4caf50;
+  display: inline-block;
+}
+
+.about-me p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.about-me p br {
+  margin-bottom: 16px;
+  display: block;
+}
+/* skils */
+.logo-container {
+  padding: 2px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.skill-logo {
+  width: 80px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.skill-logo:hover {
+  transform: scale(1.4);
+}
+.contatc {
+  margin-bottom: 5rem;
+}
