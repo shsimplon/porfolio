@@ -1,6 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 export function AboutMe() {
   return (
-    <div className="about-me">
+    <div id="about-me" className="about-me">
       <h2>About Me</h2>
       <p>
         Je suis une professionnelle en reconversion, j'ai obtenu un Master en

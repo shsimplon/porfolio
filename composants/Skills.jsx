@@ -2,11 +2,11 @@ import { logos } from "../src/logos";
 
 export function Skills() {
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <h2>Compétences Techniques</h2>
 
       <h3>Front-end:</h3>
-      <div className="logo-container">
+      <div className="logo-container ">
         {logos
           .filter((logo) => logo.category === "Front-end")
           .map((logo) => (
@@ -59,7 +59,6 @@ export function Skills() {
           "Gestion du projet",
           " Autoformation ",
           "Autonomie",
-          " Gestion du temps Organisée",
         ].map((transversal) => (
           <li key={transversal}>{transversal}</li>
         ))}

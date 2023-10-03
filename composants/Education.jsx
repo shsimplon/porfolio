@@ -20,7 +20,7 @@ export function Education() {
   ];
 
   return (
-    <div className="education">
+    <div id="education" className="education">
       <h2>Diplomes et Formations</h2>
 
       {courses.map((course, idx) => (

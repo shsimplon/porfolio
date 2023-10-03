@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <div className="header">
+    <div id="header" className="header">
       <h1>Samira AISSOU</h1>
       <h2>Développeuse full stack JS / TS / React / NodeJS</h2>
       <div className="profil">

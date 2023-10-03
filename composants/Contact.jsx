@@ -29,7 +29,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="contatc">
+    <div id="contact" className="contatc">
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />

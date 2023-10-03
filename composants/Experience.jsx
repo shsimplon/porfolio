@@ -7,32 +7,30 @@ export function Experience() {
       tasks: [
         "Créer des CRM",
         "Créer des API REST",
-        "Effectuer des tests unitaires (Jest) et tests d'intégration ( Chai, Cypress)",
+        "Effectuer des tests",
         "Créer des surfaces utilisateur avec React",
-        "Créer des maquettes sur figma",
       ],
     },
     {
       title: "Développeuse full stack Nodejs / Typescript",
-      company: "Greniers d'Abondance (projet Crater) , Paris",
+      company: "Projet open source, Greniers d'Abondance, Paris",
       duration: "02-2023 - 07-2023",
       lien: "https://crater.resiliencealimentaire.org",
       tasks: [
         "Travailler sur la partie front-end",
-        "Développement d'un site full LitJS / VueJS",
         "Développer, Maintenir et améliorer les interfaces utilisateur existantes",
       ],
     },
 
     {
       title: "Développeuse full stack NodeJS / NextJS / Javascript",
-      company: "Fermes d'Avenir, Paris",
+      company: "Projet associatif, Fermes d'Avenir, Paris",
       duration: "10-2022 - 01-2023",
       lien: "https://labonnepioche.fermesdavenir.org",
       tasks: [
         "Contribuer au design de l'application",
         "Créer un espace statistiques avec Chart.js",
-        " Suivre le trafic du site",
+        "Suivre le trafic du site",
       ],
     },
   ];
@@ -42,7 +40,7 @@ export function Experience() {
   };
 
   return (
-    <div className="experience">
+    <div id="experience" className="experience">
       <h2>Expériences professionnelles</h2>
 
       {jobs.map((job, idx) => (
