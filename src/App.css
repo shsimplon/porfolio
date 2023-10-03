@@ -360,6 +360,9 @@ form input[type="submit"]:hover {
     display: block;
     color: wheat;
   }
+  .navbar {
+    padding: 0;
+  }
 }
 
 /* Menu ouvert */
