@@ -3,7 +3,7 @@ export function Experience() {
     {
       title: "Développeuse full stack JS / TS / React / Node",
       company: "Wemanity , Paris",
-      duration: "12-2021 - 07-2023",
+      duration: "10-2021 - 04-2023",
       tasks: [
         "Créer des CRM",
         "Créer des API REST",
@@ -14,7 +14,7 @@ export function Experience() {
     {
       title: "Développeuse full stack Nodejs / Typescript",
       company: "Projet open source, Greniers d'Abondance, Paris",
-      duration: "02-2023 - 07-2023",
+      duration: "04-2023 - 07-2023",
       lien: "https://crater.resiliencealimentaire.org",
       tasks: [
         "Travailler sur la partie front-end",
@@ -25,7 +25,7 @@ export function Experience() {
     {
       title: "Développeuse full stack NodeJS / NextJS / Javascript",
       company: "Projet associatif, Fermes d'Avenir, Paris",
-      duration: "10-2022 - 01-2023",
+      duration: "12-2022 - 01-2023",
       lien: "https://labonnepioche.fermesdavenir.org",
       tasks: [
         "Contribuer au design de l'application",
