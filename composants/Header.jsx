@@ -77,7 +77,7 @@ export function Header() {
         </svg>
 
         <a
-          href="https://cvdesignr.com/p/6506f0564f676"
+          href="https://cvdesignr.com/p/666ac20db39c7"
           download="Nom_du_CV.pdf"
           target="_blank"
           rel="noreferrer"

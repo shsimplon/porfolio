@@ -31,9 +31,9 @@ body {
 
 /* --- Header Styles --- */
 .header {
-  background: linear-gradient(45deg, #4caf50, #81c784);
+  background: #7ec79d;
   color: #ffffff;
-  padding: 60px 0;
+  /* padding: 60px 0; */
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

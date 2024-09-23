@@ -1,66 +1,70 @@
-import ReactLogo from "/front/react.png";
-import VueLogo from "/front/vue.png";
-import cssLogo from "/front/css.png";
-import nextLogo from "/front/nextjs.png";
-import reduxLogo from "/front/redux.png";
-import sassLogo from "/front/sass.png";
-import strorybookLogo from "/front/storybook.png";
-import taillwindsLogo from "/front/taillwinds.png";
-
 import express from "/back/express.png";
 import js from "/back/js.png";
 import mongo from "/back/mongo.png";
 import mysql from "/back/mysql.png";
+import docker from "/back/docker.png";
+
 import nest from "/back/nest.png";
-import node from "/back/node.jpg";
+import next from "/front/next.png";
+
+import vue from "/front/vue.png";
+import sass from "/front/scss.png";
+import css from "/front/css.png";
+import tailwinds from "/front/tailwinds.png";
+import storybook from "/front/storybook.png";
+
+import redux from "/front/redux.png";
+
 import postresql from "/back/postresql.png";
+import reactLogo from "/front/react.png";
 import swagger from "/back/swagger.jpg";
 import ts from "/back/ts.png";
 
 export const logos = [
   // front
   {
-    src: ReactLogo,
+    src: reactLogo,
     alt: "React Logo",
     category: "Front-end",
   },
   {
-    src: VueLogo,
+    src: vue,
     alt: "Vue.js Logo",
-    category: "Front-end",
-  },
-  {
-    src: cssLogo,
-    alt: "css Logo",
     category: "Front-end",
   },
 
   {
-    src: nextLogo,
+    src: next,
     alt: "nextLogo Logo",
     category: "Front-end",
   },
   {
-    src: reduxLogo,
+    src: redux,
     alt: "reduxLogo Logo",
     category: "Front-end",
   },
   {
-    src: sassLogo,
+    src: css,
+    alt: "css Logo",
+    category: "Front-end",
+  },
+  {
+    src: sass,
     alt: "sassLogo Logo",
     category: "Front-end",
   },
   {
-    src: strorybookLogo,
-    alt: "strorybookLogo Logo",
+    src: tailwinds,
+    alt: "tailwindsLogo Logo",
     category: "Front-end",
   },
   {
-    src: taillwindsLogo,
-    alt: "taillwindsLogo Logo",
+    src: storybook,
+    alt: "storybookLogo Logo",
     category: "Front-end",
   },
-  // back-end
+
+  //   // back-end
   {
     src: ts,
     alt: "ts",
@@ -71,14 +75,20 @@ export const logos = [
     alt: "js",
     category: "back-end",
   },
+
   {
-    src: node,
-    alt: "node",
+    src: mysql,
+    alt: "mysql",
     category: "back-end",
   },
   {
     src: express,
     alt: "express",
+    category: "back-end",
+  },
+  {
+    src: docker,
+    alt: "docker",
     category: "back-end",
   },
 
@@ -87,11 +97,7 @@ export const logos = [
     alt: "mongo",
     category: "back-end",
   },
-  {
-    src: mysql,
-    alt: "mysql",
-    category: "back-end",
-  },
+
   {
     src: nest,
     alt: "nest",

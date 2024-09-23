@@ -3,20 +3,20 @@ export function Education() {
     {
       title: "Concepteur développeur d’applications web et mobile",
       place: "Simplon, Montreuil",
-      year: "09-2022",
+      year: "09-2021",
     },
     // ... other courses
     {
       title: " Développeur web et web mobile",
       place: "Simplon, Montreuil",
-      year: "09-2021",
+      year: "09-2020",
     },
 
-    {
-      title: "Master microbiologie fondamentale et appliquée ",
-      place: "UBO, Brest",
-      year: "07-2014 ",
-    },
+    // {
+    //   title: "Master microbiologie fondamentale et appliquée ",
+    //   place: "UBO, Brest",
+    //   year: "07-2014 ",
+    // },
   ];
 
   return (
